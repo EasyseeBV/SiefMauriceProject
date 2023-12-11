@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8409419027357965232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8409419027357965238}
+  - component: {fileID: 8409419027357965233}
+  m_Layer: 0
+  m_Name: ScrambleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8409419027357965238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8409419027357965232}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8409419027357965233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8409419027357965232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ecaf97fe5a5a0846bc997944c143cee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Words:
+  - HELLO
+  - OTHER
+  - WORD
+  PlayTable: {fileID: 8409419027357965232}
+  LetterBox: {fileID: 4134545855339269157, guid: 711c8500bc153cb41b9184ab5664b716,
+    type: 3}
+  dict: {fileID: 4900000, guid: 0e2d6ea397802364c899f3ef97adca75, type: 3}
+  FindRandomWord: 0
+  WordLength: 5
+  AmountOfWords: 5
+  Reset: 0
+  EasyMode: 0

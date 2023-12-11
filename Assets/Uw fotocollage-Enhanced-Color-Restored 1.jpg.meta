@@ -1,0 +1,690 @@
+fileFormatVersion: 2
+guid: 4c2997719167f8e478ab1b626bc6eb20
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 2000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6204.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a9787a942eda444960aeb5a0a7d722
+      internalID: -1619676260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_1
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 6204.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e90d147b73fe54eb9cb5d7ff47278a
+      internalID: 1503774696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_2
+      rect:
+        serializedVersion: 2
+        x: 4124
+        y: 6204.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a181140db549f5948aff3d116f02783d
+      internalID: -1221859633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_3
+      rect:
+        serializedVersion: 2
+        x: 6186
+        y: 6204.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cf9249859540547a4dc373afb8fd25
+      internalID: -1321278701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_4
+      rect:
+        serializedVersion: 2
+        x: 8248
+        y: 6204.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4234bbc09f1cda1439f01918625247ac
+      internalID: -1707535436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4653.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebd3df018259664995dfb03cf32c9bd
+      internalID: 2041631478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_6
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 4653.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfd9fd886337fc4583c45d966880b1d
+      internalID: 2070652558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_7
+      rect:
+        serializedVersion: 2
+        x: 4124
+        y: 4653.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80cda75d469211469f419242f3a3c61
+      internalID: -1867679747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_8
+      rect:
+        serializedVersion: 2
+        x: 6186
+        y: 4653.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e9d34729d29cd47ae3713523362366
+      internalID: 1019066001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_9
+      rect:
+        serializedVersion: 2
+        x: 8248
+        y: 4653.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a8fa31f9c857440b643185f45df399
+      internalID: -1457237919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3102.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0528785dc257e7d499196c8660347aa7
+      internalID: 1773869847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_11
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 3102.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12db0742c7bf9184c9aae36d61c5781b
+      internalID: 862660507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_12
+      rect:
+        serializedVersion: 2
+        x: 4124
+        y: 3102.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659584a19f552914bb61b0f1e3e92aea
+      internalID: -842443650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_13
+      rect:
+        serializedVersion: 2
+        x: 6186
+        y: 3102.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594486827e2e1b54496d8f33d345ac34
+      internalID: -1358832929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_14
+      rect:
+        serializedVersion: 2
+        x: 8248
+        y: 3102.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4311877798ec38044a2000df7b602f6b
+      internalID: 246159806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1551.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bdb647ce0b071429428acc384d7ec1
+      internalID: -1527981684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_16
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 1551.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6841b3ecdf71b6940b05246483655309
+      internalID: 1620062147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_17
+      rect:
+        serializedVersion: 2
+        x: 4124
+        y: 1551.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3275a17b1a2e1804caeb297dc26d595e
+      internalID: -1200381386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_18
+      rect:
+        serializedVersion: 2
+        x: 6186
+        y: 1551.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b9ffc3249aeec4eb78ef3b3ea99106
+      internalID: 605190014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_19
+      rect:
+        serializedVersion: 2
+        x: 8248
+        y: 1551.8
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea4f528ed25a054084bb1983b733e29
+      internalID: -1483039050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.8000488
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59de0e3360e313a4f82f4004ffde34ec
+      internalID: -47887573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_21
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 0.8000488
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22e807a25d7e5445a19a90329d72258
+      internalID: -584355990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_22
+      rect:
+        serializedVersion: 2
+        x: 4124
+        y: 0.8000488
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e892c16de4332514eb2d5ce017c54d12
+      internalID: -1043836129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_23
+      rect:
+        serializedVersion: 2
+        x: 6186
+        y: 0.8000488
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622e9417bcef4de4aabefb2ebcf083b8
+      internalID: -1180957436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uw fotocollage-Enhanced-Color-Restored 1_24
+      rect:
+        serializedVersion: 2
+        x: 8248
+        y: 0.8000488
+        width: 2062
+        height: 1551.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dc5ba2e91abba45bb3c4d5a01f6b84
+      internalID: -1118684049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Uw fotocollage-Enhanced-Color-Restored 1_0: -1619676260
+      Uw fotocollage-Enhanced-Color-Restored 1_1: 1503774696
+      Uw fotocollage-Enhanced-Color-Restored 1_10: 1773869847
+      Uw fotocollage-Enhanced-Color-Restored 1_11: 862660507
+      Uw fotocollage-Enhanced-Color-Restored 1_12: -842443650
+      Uw fotocollage-Enhanced-Color-Restored 1_13: -1358832929
+      Uw fotocollage-Enhanced-Color-Restored 1_14: 246159806
+      Uw fotocollage-Enhanced-Color-Restored 1_15: -1527981684
+      Uw fotocollage-Enhanced-Color-Restored 1_16: 1620062147
+      Uw fotocollage-Enhanced-Color-Restored 1_17: -1200381386
+      Uw fotocollage-Enhanced-Color-Restored 1_18: 605190014
+      Uw fotocollage-Enhanced-Color-Restored 1_19: -1483039050
+      Uw fotocollage-Enhanced-Color-Restored 1_2: -1221859633
+      Uw fotocollage-Enhanced-Color-Restored 1_20: -47887573
+      Uw fotocollage-Enhanced-Color-Restored 1_21: -584355990
+      Uw fotocollage-Enhanced-Color-Restored 1_22: -1043836129
+      Uw fotocollage-Enhanced-Color-Restored 1_23: -1180957436
+      Uw fotocollage-Enhanced-Color-Restored 1_24: -1118684049
+      Uw fotocollage-Enhanced-Color-Restored 1_3: -1321278701
+      Uw fotocollage-Enhanced-Color-Restored 1_4: -1707535436
+      Uw fotocollage-Enhanced-Color-Restored 1_5: 2041631478
+      Uw fotocollage-Enhanced-Color-Restored 1_6: 2070652558
+      Uw fotocollage-Enhanced-Color-Restored 1_7: -1867679747
+      Uw fotocollage-Enhanced-Color-Restored 1_8: 1019066001
+      Uw fotocollage-Enhanced-Color-Restored 1_9: -1457237919
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

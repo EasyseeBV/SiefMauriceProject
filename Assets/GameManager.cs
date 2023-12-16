@@ -60,7 +60,6 @@ public class GameManager : MonoBehaviour
                 }
                 else
                 {
-                    print(Vector3.Distance(allVideoPlayers[i].transform.position, cameraTransform.position));
                     allVideoPlayers[i].Pause();
                 }
             }
@@ -72,7 +71,6 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print(PlayerPrefs.GetInt("CurrentLevel"));
         StartCoroutine(PlayClosestVideos());
     }
 
@@ -88,6 +86,7 @@ public class GameManager : MonoBehaviour
         }
         if (LinkedObject != null && transform.parent != LinkedObject.transform)
         {
+            GetComponent<AudioSource>().Play();
             transform.parent = LinkedObject.transform;
             transform.localPosition = Vector3.zero;
             transform.localEulerAngles = new Vector3(90, 0, 0);
@@ -97,14 +96,17 @@ public class GameManager : MonoBehaviour
 
     public void ResetLevels()
     {
-        if (CurrentLevel > Levels.Count - 1)
+        if (CurrentLevel <= Levels.Count - 1)
         {
-            Debug.LogWarning("Level error, there is a level lost");
-            return;
+            Levels[CurrentLevel].LevelObject?.SetActive(false);
         }
-        Levels[CurrentLevel].LevelObject?.SetActive(false);
+        
         CurrentLevel = 0;
-        LoadLevel(CurrentLevel);
+        if (Levels.Count > 0)
+        {
+            LoadLevel(CurrentLevel);
+        }
+        
     }
 
     public void LevelFinished()

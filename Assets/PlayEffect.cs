@@ -14,7 +14,7 @@ public class PlayEffect : MonoBehaviour
     public VideoClip KissingFace;
     public AudioClip SpecialAudio;
 
-    public void Start()
+    public void Awake()
     {
         videoPlayer = GetComponent<VideoPlayer>();
         audioSource = GetComponent<AudioSource>();

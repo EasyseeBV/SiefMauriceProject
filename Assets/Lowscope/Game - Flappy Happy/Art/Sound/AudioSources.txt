@@ -1,0 +1,13 @@
+Flap Regular - https://freesound.org/people/speedygonzo/sounds/235727/
+Flap Arcade - https://freesound.org/people/korgchops/sounds/170636/
+
+Collision Regular - https://freesound.org/people/taylorsyoung@gmail.com/sounds/94778/
+// Arcade uses flap arcade again but on a lower pitch
+
+Death Regular - https://freesound.org/people/NeoSpica/sounds/434147/
+Death Arcade - https://freesound.org/people/Tilde/sounds/18758/
+
+Success Regular - https://freesound.org/people/FunWithSound/sounds/456965/
+Success Arcade - https://freesound.org/people/timgormly/sounds/162805/
+
+Arcade Music - https://freesound.org/people/bone666138/sounds/466998/

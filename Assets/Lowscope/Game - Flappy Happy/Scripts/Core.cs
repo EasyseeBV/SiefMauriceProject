@@ -78,13 +78,20 @@ namespace Lowscope.ArcadeGame.FlappyHappy
         public void IncrementScore()
         {
             score++;
+            if (score >= 20)
+            {
+                GameManager.Instance.LevelFinished();
+            }
             onGameScoreChanged.Invoke(score);
         }
 
         public void Tap()
         {
             if (gameOver)
+            {
+                RestartGame();
                 return;
+            }
 
             if (!gameStarted)
             {

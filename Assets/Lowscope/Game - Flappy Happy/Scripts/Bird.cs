@@ -56,10 +56,10 @@ namespace Lowscope.ArcadeGame.FlappyHappy
             core.ListenToGameRestart(OnGameRestart);
             core.ListenToGameTap(OnTap);
 
-            // Store the starting positions as 
+            // Store the starting localPositions as 
             // a reference for when the game restarts.
-            startPosition = transform.position;
-            startRotation = transform.rotation;
+            startPosition = transform.localPosition;
+            startRotation = transform.localRotation;
             rigidbodyConstraints = rigidBody.constraints;
         }
 
@@ -72,13 +72,14 @@ namespace Lowscope.ArcadeGame.FlappyHappy
             lastCollisionID = 0;
 
             useGravity = false;
-            //rigidBody.useGravity = false;
+            rigidBody.useGravity = false;
+
+            rigidBody.constraints = rigidbodyConstraints;
             rigidBody.velocity = new Vector3(0, 0, 0);
             rigidBody.angularVelocity = new Vector3(0, 0, 0);
-            rigidBody.constraints = rigidbodyConstraints;
 
-            transform.position = startPosition;
-            transform.rotation = startRotation;
+            transform.localPosition = startPosition;
+            transform.localRotation = startRotation;
 
             SetDeadEyes(false);
         }
@@ -90,7 +91,7 @@ namespace Lowscope.ArcadeGame.FlappyHappy
             gameStarted = true;
 
             useGravity = true;
-            //rigidBody.useGravity = true;
+            rigidBody.useGravity = true;
         }
 
         private void OnTap()
@@ -120,8 +121,10 @@ namespace Lowscope.ArcadeGame.FlappyHappy
             {
                 Vector3 newPosition = startPosition;
                 newPosition.y = startPosition.y + (Mathf.Cos(t * startFloatSpeed) * startFloatDistance);
-                transform.position = newPosition;
-                transform.rotation = startRotation;
+                transform.localPosition = newPosition;
+                transform.localRotation = startRotation;
+                rigidBody.angularVelocity = Vector3.zero;
+                rigidBody.velocity = Vector3.zero;
 
                 if (animationTime > 0.5f)
                 {
@@ -136,12 +139,12 @@ namespace Lowscope.ArcadeGame.FlappyHappy
                 return;
             }
 
-            Vector3 euler = transform.rotation.eulerAngles;
+           /* Vector3 euler = transform.localEulerAngles;
 
-            // Clamp the bird rotation to a maximum angle.
+            // Clamp the bird localRotation to a maximum angle.
             if (euler.x > maximumHeightAngle && rigidBody.velocity.y > 0)
             {
-                transform.rotation = Quaternion.Euler(maximumHeightAngle, -90, 0);
+                transform.localRotation = Quaternion.Euler(maximumHeightAngle, -90, 0);
                 rigidBody.angularVelocity = new Vector3(0, 0, 0);
             }
             else
@@ -151,7 +154,7 @@ namespace Lowscope.ArcadeGame.FlappyHappy
                 {
                     rigidBody.angularVelocity = new Vector3(0, 0, fallingAngularVelocity);
                 }
-            }
+            }*/
 
             // Ensure the bird cannot flap above the pipes.
             if (transform.localPosition.y > maximumHeight)
@@ -176,9 +179,9 @@ namespace Lowscope.ArcadeGame.FlappyHappy
 
             // Start pushing the bird with impulses, using the contact point
             var contactPoint = collision.contacts[0];
-            bool isBelowPlayer = contactPoint.point.y < transform.position.y;
+            bool isBelowPlayer = contactPoint.point.y < transform.localPosition.y;
 
-            rigidBody.constraints = RigidbodyConstraints.None;
+            //rigidBody.constraints = RigidbodyConstraints.None;
             rigidBody.AddForce(contactPoint.normal * ((isBelowPlayer) ?
                 groundCollisionImpulse : wallCollisionImpulse), ForceMode.VelocityChange);
             rigidBody.AddForce(Vector3.up);

@@ -35,12 +35,13 @@ namespace Lowscope.ArcadeGame.FlappyHappy
         private void RecalculateStandEndPoints()
         {
             // Get maximum/minimum point left side of screen. For spawning/despawning of pipes, making it impossible to see any pop-in.
-            minSpawnDistance = RaycastPlayerfieldPlane(new Vector3(0, camera.scaledPixelHeight * 0.5f)).x - 1;
-            maxSpawnDistance = RaycastPlayerfieldPlane(new Vector3(camera.scaledPixelWidth, camera.scaledPixelHeight * 0.5f)).x + 1;
+            minSpawnDistance = -10f;// RaycastPlayerfieldPlane(new Vector3(0, camera.scaledPixelHeight * 0.5f)).x - 1;
+            maxSpawnDistance = 10f;// RaycastPlayerfieldPlane(new Vector3(camera.scaledPixelWidth, camera.scaledPixelHeight * 0.5f)).x + 1;
         }
 
         private Vector3 RaycastPlayerfieldPlane(Vector3 screenPosition)
         {
+            camera = Camera.main;
             if (camera == null)
                 return default;
 

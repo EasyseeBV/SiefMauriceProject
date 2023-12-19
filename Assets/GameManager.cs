@@ -43,24 +43,27 @@ public class GameManager : MonoBehaviour
     {
         while (true)
         {
-            Transform cameraTransform = Camera.main.transform;
-
-            allVideoPlayers.Sort((vp1, vp2) =>
-                Vector3.Distance(vp1.transform.position, cameraTransform.position).CompareTo(
-                Vector3.Distance(vp2.transform.position, cameraTransform.position))
-            );
-
-            int MaxVideos = 0;
-            for (int i = 0; i < allVideoPlayers.Count; i++)
+            if (CurrentLevel == 0)
             {
-                if (MaxVideos < 9 && Vector3.Distance(allVideoPlayers[i].transform.position, cameraTransform.position) < 15f)
+                Transform cameraTransform = Camera.main.transform;
+
+                allVideoPlayers.Sort((vp1, vp2) =>
+                    Vector3.Distance(vp1.transform.position, cameraTransform.position).CompareTo(
+                    Vector3.Distance(vp2.transform.position, cameraTransform.position))
+                );
+
+                int MaxVideos = 0;
+                for (int i = 0; i < allVideoPlayers.Count; i++)
                 {
-                    allVideoPlayers[i].Play();
+                    if (MaxVideos < 9 && Vector3.Distance(allVideoPlayers[i].transform.position, cameraTransform.position) < 15f)
+                    {
+                        allVideoPlayers[i].Play();
                         MaxVideos++;
-                }
-                else
-                {
-                    allVideoPlayers[i].Pause();
+                    }
+                    else
+                    {
+                        allVideoPlayers[i].Pause();
+                    }
                 }
             }
             yield return new WaitForSecondsRealtime (0.5f);
@@ -120,7 +123,6 @@ public class GameManager : MonoBehaviour
         CurrentLevel++;
         LoadLevel(CurrentLevel);
     }
-
     public void LoadLevel(int Level)
     {
         if (Level > Levels.Count - 1)

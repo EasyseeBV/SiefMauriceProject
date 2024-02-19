@@ -155,6 +155,7 @@ public class ScrambleManager : MonoBehaviour
 
     IEnumerator WordsAnimator(int WordOne, int WordTwo)
     {
+        
         WordInfoComponent LetterOne = AllLetterObjects[WordOne].GetComponent<WordInfoComponent>();
         WordInfoComponent LetterTwo = AllLetterObjects[WordTwo].GetComponent<WordInfoComponent>();
 
@@ -163,7 +164,7 @@ public class ScrambleManager : MonoBehaviour
         float Starttime = Time.realtimeSinceStartup;
         while (Percent < 1f)
         {
-            Percent = Time.realtimeSinceStartup - Starttime * 2f;
+            Percent = (Time.realtimeSinceStartup - Starttime) * 2f;
             float SinusPercent = Percent >= 0.5f ? 1 - Percent : Percent;
             AllLetterObjects[WordOne].transform.localPosition = Vector3.Lerp(First, Second, Percent);
             AllLetterObjects[WordOne].transform.localPosition += new Vector3(0, 0, Mathf.Lerp(0, 1, SinusPercent));

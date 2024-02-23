@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 27097995}
   - component: {fileID: 27097996}
   m_Layer: 0
-  m_Name: KristianSander
+  m_Name: KristianSanne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -394,7 +394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BasicFace: {fileID: 32900000, guid: 738cf6f781a38a6489a672f4c5cc2f1c, type: 3}
   KissingFace: {fileID: 32900000, guid: 5d3ddeb0b85916949b070b06233ff97c, type: 3}
-  SpecialAudio: {fileID: 0}
+  SpecialAudio: {fileID: 8300000, guid: 8412a90b9a41caf43bbaa546dfab2b14, type: 3}
 --- !u!1 &34511112
 GameObject:
   m_ObjectHideFlags: 0
@@ -2861,7 +2861,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BasicFace: {fileID: 32900000, guid: 90f9664abe4c8a24c9944ffa1889e9bd, type: 3}
   KissingFace: {fileID: 32900000, guid: 8ea74518ee38df04283c4ff3405e79fd, type: 3}
-  SpecialAudio: {fileID: 0}
+  SpecialAudio: {fileID: 8300000, guid: 366479d87bf72f04a9ef078cc586f013, type: 3}
 --- !u!1 &335456967
 GameObject:
   m_ObjectHideFlags: 0
@@ -4732,7 +4732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BasicFace: {fileID: 32900000, guid: c6a6581f369c18943aafd0f38c8664cb, type: 3}
   KissingFace: {fileID: 32900000, guid: 311cbfebb7014474580858bb8aeec256, type: 3}
-  SpecialAudio: {fileID: 0}
+  SpecialAudio: {fileID: 8300000, guid: 63a435032d335d148b584e8d9c4331e2, type: 3}
 --- !u!1 &565382173
 GameObject:
   m_ObjectHideFlags: 0
@@ -12751,7 +12751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BasicFace: {fileID: 32900000, guid: 3eaf1b6e7f6260f4b9ec12e5ab9cf165, type: 3}
   KissingFace: {fileID: 32900000, guid: 69439f967c3e5be4ca4f8d891e3e5f78, type: 3}
-  SpecialAudio: {fileID: 0}
+  SpecialAudio: {fileID: 8300000, guid: 7c59f939fb392ac439d1df95ba7fa6cd, type: 3}
 --- !u!1 &1403358764
 GameObject:
   m_ObjectHideFlags: 0
@@ -13154,7 +13154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BasicFace: {fileID: 32900000, guid: f6435d3c7dc50e94996bfd4446f35d16, type: 3}
   KissingFace: {fileID: 32900000, guid: 9f12933648775b742a185957cb00f4d9, type: 3}
-  SpecialAudio: {fileID: 0}
+  SpecialAudio: {fileID: 8300000, guid: 9c38fa363e0df0c4294ad423511e4cdf, type: 3}
 --- !u!1 &1441595255
 GameObject:
   m_ObjectHideFlags: 0
@@ -15669,7 +15669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BasicFace: {fileID: 32900000, guid: 45f7f8171939274468bce11343d80d83, type: 3}
   KissingFace: {fileID: 32900000, guid: 3b03c1b6848386c4c811d2e3caacccc8, type: 3}
-  SpecialAudio: {fileID: 0}
+  SpecialAudio: {fileID: 8300000, guid: 63280bea8dd049c4aa2c1ce9a54d3973, type: 3}
 --- !u!1 &1853105721
 GameObject:
   m_ObjectHideFlags: 0
@@ -18944,7 +18944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BasicFace: {fileID: 32900000, guid: 7f0aae687fc6f7a49a9643b129959f4b, type: 3}
   KissingFace: {fileID: 32900000, guid: 91903eb49f5ad154f9e2f6392f7faa01, type: 3}
-  SpecialAudio: {fileID: 0}
+  SpecialAudio: {fileID: 8300000, guid: aafb329b6ae05b24a97c962f2b9ecb5a, type: 3}
 --- !u!1 &2132967328
 GameObject:
   m_ObjectHideFlags: 0

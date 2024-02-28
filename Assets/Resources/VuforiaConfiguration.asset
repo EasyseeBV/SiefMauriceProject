@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: ARjhd0f/////AAABmYyhP4FNS0c+vsfh++inK7pQmMTmO3FNu31WpkuwXDctbBLlgrGAJNuM3brBI2CvRSqCTMpEGq8SiGPiT0BNZWG8/Ph98GVqkfZ1bbHevTJDuZDLN20K+FRFwPX8pvHGVNTyHFaaAXokFzgq6DjI0UTDYYdZSzvpTwT/HnxrMP4+agZ3ji/0Npn6gS+6UpdxiuYZCPKTrbr098CdGNbe8HA/Co5KbmsTvkJ2tfI0XYbia2VoJVnVNhWE1fKZp7DZSc4Vp+Vr1xw2KNu/ePOGkv+fVDKXzWIncc+HMOjgSYtegJlDYmd1kd5nmOmjvDrNwo7BREShGKaLNsWv7P6jxoaahDo929O0SDdKuwc0dUjk
-    ufoLicenseKey: QVRNdForWC8vLy8vQUFBQUtHa0lJTmJ6WFU5S2xSUmtNT2ZJZVBWK1R6ZFl5Uno0a2lwbVBDYTdKTnNjcnVzRU93eC84Q2RVVUJHM0o1b1czWFlpYXFBSUNNeXUzcXkzSE1WS1UxUXRvV0tkUnRsUTFwUmk1cHNub0pJODZCVTA2QUttSHN6aTVHUFJNM2tQS0lKTi9CZEM4aHZhcDFHRnFVSzVlZ2Y4NGZJLzZtOGNPYVlOUDRrRkNpbmVyRDY1ZElLcG1McVFTU0hnTXk5NTd0QW9WSGY1dWU5T3FYVldvVTh0MmhQaW1ZQy8rSzJGaThkUzFRY0xpVDA5QytmU3Fra3MzR21UYWFYWnplSjV0K0xpN0RDUk9VeDI1ZS9LbHhSa29TWExFM1JHN3lzaHJ1OFVzYjV1WVJFa0NKTGpxaFRyQUlCblJmNTlGWXVqeXZwSkJNWTU0WTlWWDh3bjRaTEswOEZSbVc5Y2V0VnpnUUpLOFF1KzRNa2I=
+    vuforiaLicenseKey: QVVsek9FYi8vLy8vQUFBQUtFMEtUSTFrZDBXZW1vVzRrd2tPdWxvZ3U3NFRpTm5WSVJqS0NqeWU0aGlRWElWSmduTHhrYWtza2x5Q1lEVktVenI5MnBLSm5mVWJiazJWbGNaV0RWQWd5R2QyOWNKNVhHVDZnbjcvaVhJd0VObFhrNitTT1pud3hWM1hrbFgxWkxLK3JGSkl0cmVJa3FiOUovZFBQRk9XeUIya21qSDBsRy9EVXdyVk1LZ280bElCUG10L2ZwRUJNK2h3L1pXemxxYm5saVJoNnIxcW5GMFg0dWxtMFlGLzlmMEpkMStBSU5lKzZRL2pVVXdtWWZzWWJ1OXIxZmc1dTNSS05GTkVZYjNhNTBUZVp1ZkNtOGpyNzBsbU5TVHVaZ0d2bk84T0FQOSsyVlNmaEhvYmM0KzFXdGxBOHNVNmQ4Ty9MeWpEMENBbEowQy9SbHg3bmZ3Z3V1aXZhNCtrRUdSY0RIUlZYbUU4MnAvQjNsRk4=
+    ufoLicenseKey: QVVsek9FYi8vLy8vQUFBQUtFMEtUSTFrZDBXZW1vVzRrd2tPdWxvZ3U3NFRpTm5WSVJqS0NqeWU0aGlRWElWSmduTHhrYWtza2x5Q1lEVktVenI5MnBLSm5mVWJiazJWbGNaV0RWQWd5R2QyOWNKNVhHVDZnbjcvaVhJd0VObFhrNitTT1pud3hWM1hrbFgxWkxLK3JGSkl0cmVJa3FiOUovZFBQRk9XeUIya21qSDBsRy9EVXdyVk1LZ280bElCUG10L2ZwRUJNK2h3L1pXemxxYm5saVJoNnIxcW5GMFg0dWxtMFlGLzlmMEpkMStBSU5lKzZRL2pVVXdtWWZzWWJ1OXIxZmc1dTNSS05GTkVZYjNhNTBUZVp1ZkNtOGpyNzBsbU5TVHVaZ0d2bk84T0FQOSsyVlNmaEhvYmM0KzFXdGxBOHNVNmQ4Ty9MeWpEMENBbEowQy9SbHg3bmZ3Z3V1aXZhNCtrRUdSY0RIUlZYbUU4MnAvQjNsRk4=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
@@ -23,8 +23,8 @@ MonoBehaviour:
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
     logLevel: 0
-    version: 10.19.3
-    eulaAcceptedVersions: '{"Values":["","0.0","10.16","10.19"]}'
+    version: 10.21.3
+    eulaAcceptedVersions: '{"Values":["","0.0","10.16","10.19","10.21"]}'
   database:
     disableModelExtraction: 0
   shaders:
@@ -32,6 +32,8 @@ MonoBehaviour:
     outlineShader: {fileID: 4800000, guid: 88d3b6b5cf364476ca39fcec255331b1, type: 3}
     unlitTransparentShader: {fileID: 10750, guid: 0000000000000000f000000000000000,
       type: 0}
+  runtimeResources:
+    register: {fileID: 11400000, guid: caeba6ecda451416c803389918ddea4a, type: 2}
   videoBackground:
     numDivisions: 2
     videoBackgroundShader: {fileID: 4800000, guid: 144dfca22ac584ade9e538e24a5ddded,
